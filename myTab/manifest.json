@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "myTab",
+  "version": "1",
+  "permissions": [
+    "tabs"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  },
+  "browser_action": {
+    "default_icon": "bg.png",
+    "default_title": "My Awsome Tab."
+  }
+}
